@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'camptonlight_demo';
+    src: url('../font/campton-lightdemo-webfont.eot');
+    src: url('../font/campton-lightdemo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/campton-lightdemo-webfont.woff2') format('woff2'),
+         url('../font/campton-lightdemo-webfont.woff') format('woff'),
+         url('../font/campton-lightdemo-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-size: 20px;
+    font-family: 'camptonlight_demo';
+}
+.navbar-brand {
+    z-index: 20;
+    background-color: #fff;
+    margin: 0 !important;
+}
+.nav-item-menu ul {
+    line-height: 30px;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+.divider {
+    color: #f00;
+    box-sizing: border-box;
+    padding: 0 8px;
+    
+}
+.navbar-light .navbar-brand.nav-brand-2 {
+    color: #f00;
+    border-top: 1px solid #f00;
+    border-right: 1px solid #f00;
+    border-bottom: 1px solid #f00;
+    padding-right: 3px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.text-reveal {
+    min-width: 600px;
+    background: #fff;
+    transform: translateX(-580px);
+    transition: 1.5s;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.nav-icon:hover ~ .text-reveal{
+    transition: 1.5s;
+    transform: translateX(0px);
+    min-width: 40px;
+}
+.navbar-nav:hover ~ .text-reveal{
+    transition: 1.5s;
+    transform: translateX(0px);
+    min-width: 40px;
+}
